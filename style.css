@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 14px;
+    color: rgb(78, 66, 66);
+
+
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(214, 60, 106);
+    border: none;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(243, 182, 196);
+    padding: 0 150px 0 150px;
+    text-align: left;
+    display: flex;
+    height: 600px;
+}
+
+header .text {
+    width: 50%;
+    margin: 50px 0;
+}
+
+header .text h1 {
+    font-size: 50px;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+header .text p {
+    padding: 15px 80px 30px 0;
+}
+
+header .img {
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+
+
+}
+
+header .img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+article .different_shop{
+    padding: 100px 150px;
+    display: flex;
+
+}
+
+article .different_shop .image{
+  width: 50%;
+  margin: 50px;
+
+}
+
+article .different_shop .image img{
+    width: 100%;
+    height: auto;
+    
+  
+  }
+
+  article .different_shop .text{
+    width: 50%;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+article .different_shop .text h2{
+    padding-bottom: 15px;
+
+}
+article .different_shop .text .h2{
+    color: rgb(214, 60, 106);;
+
+}
+
+
+
+
+
+  
+
+article .Featured_Flowers {
+    padding: 100px 150px;
+    text-align: center;
+}
+
+article .Featured_Flowers .text p {
+    padding: 20px 250px;
+}
+
+article .Featured_Flowers .card_element {
+    display: flex;
+
+
+}
+
+article .Featured_Flowers .card {
+    width: 33%;
+    margin: 5px;
+    padding: 5px;
+
+
+}
+
+
+article .Featured_Flowers img {
+
+    width: 100%;
+    height: 100%;
+}
+
+article .Featured_Flowers .img {
+    padding: 50px 50px 0 50px;
+    margin-bottom: 20px;
+    height: 300px;
+
+    border-radius: 50% 50% 0 0;
+}
+
+article .Featured_Flowers .card .img1 {
+    background-color: rgb(244, 182, 212);
+}
+
+article .Featured_Flowers .card .img2 {
+    background-color: rgb(205, 239, 242);
+
+}
+
+article .Featured_Flowers .card .img3 {
+    background-color: rgb(165, 147, 147);
+
+
+}
+
+article .Featured_Flowers .card p {
+    text-decoration: underline 2px solid;
+}
+
+
+
+
+article .about {
+    padding: 10px 150px 100px 150px;
+    text-align: center;
+}
+
+article .about_element {
+    display: flex;
+    background-color: rgb(231, 223, 223);
+}
+
+article .about_element .icon {
+    width: 33%;
+    padding: 20px;
+
+}
+
+article .about_element .icon .img {
+    width: 33%;
+    height: auto;
+
+}
+
+article .about_element .icon .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+article .hot_deal {
+    background-color: rgb(243, 182, 196);
+    padding: 50px 150px;
+    text-align: center;
+    display: flex;
+    height: 300px;
+
+}
+
+
+article .hot_deal .text {
+    width: 50%;
+    margin: 50px 30px;
+
+}
+
+
+
+
+article .hot_deal .text p {
+    padding: 15px
+}
+
+article .hot_deal .img {
+    width: 50%;
+
+}
+
+article .hot_deal .img1 {
+    width: 50%;
+    height: auto;
+
+
+
+
+}
+
+article .hot_deal .img img {
+    width: auto;
+    height: 100%;
+
+}
+
+
+
+
+article .Instagram {
+    text-align: center;
+    padding: 60px 150px;
+}
+
+article .Instagram p {
+
+    padding: 10px 300px;
+}
+
+
+article .Instagram .image {
+    display: flex;
+    padding: 20px;
+
+
+}
+
+article .Instagram .image .img {
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+article .Instagram .image img {
+    width: 100%;
+
+}
+
+
+
+
+
+article .Latest_Deals {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+article .Latest_Deals .text {
+
+    padding: 100px;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+}
+
+article .Latest_Deals .subscribe {
+
+    padding: 10px;
+    display: flex;
+
+
+
+
+
+}
+
+
+article .Latest_Deals .subscribe input {
+    margin: 5px;
+    width: 70%;
+    border: none;
+    background-color: rgb(221, 206, 206);
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+article .Latest_Deals .subscribe button {
+    margin: 5px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 100px 150px;
+}
+
+footer .h2 {
+    color: rgb(214, 60, 106);
+
+}
+
+footer h2 {
+    color: rgb(255, 255, 255);
+    ;
+}
+
+footer .p {
+    color: rgb(255, 255, 255);
+    padding: 10px 300px 40px 300px;
+}
